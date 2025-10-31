@@ -35,7 +35,7 @@ export default function Home() {
 					{/* CTA Buttons */}
 					<div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
 						<a
-							href="https://forms.google.com/donate-food"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSfUdu4dS9f6PHOm4be7XFq3IAmJPcJWoduQ-WwvVk6xkA1sig/viewform"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="w-full sm:w-auto px-8 py-4 bg-[#DE673F] text-white font-semibold rounded-full hover:bg-[#c55835] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center"
@@ -44,7 +44,7 @@ export default function Home() {
 						</a>
 
 						<a
-							href="https://forms.google.com/volunteer"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSfFAShyHTDlvya-zee8kgMJJyZ2PsGw5BVb_UySXVqzBkka8g/viewform"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="w-full sm:w-auto px-8 py-4 bg-white text-[#2E4938] font-semibold rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center"
@@ -53,7 +53,7 @@ export default function Home() {
 						</a>
 
 						<a
-							href="https://forms.google.com/ngo-registration"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSfFAShyHTDlvya-zee8kgMJJyZ2PsGw5BVb_UySXVqzBkka8g/viewform"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="w-full sm:w-auto px-8 py-4 bg-[#2E4938] text-white font-semibold rounded-full hover:bg-[#1f3126] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center border-2 border-white"
