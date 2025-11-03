@@ -53,7 +53,7 @@ export default function Home() {
 						</a>
 
 						<a
-							href="https://docs.google.com/forms/d/e/1FAIpQLSfFAShyHTDlvya-zee8kgMJJyZ2PsGw5BVb_UySXVqzBkka8g/viewform"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSc6h3LxODPzTSvgL01jexl0Bs18-Yes5tddpajV6xLJhBuuzQ/viewform"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="w-full sm:w-auto px-8 py-4 bg-[#2E4938] text-white font-semibold rounded-full hover:bg-[#1f3126] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center border-2 border-white"
@@ -212,7 +212,7 @@ export default function Home() {
 							<p className="text-white text-xl sm:text-2xl font-bold mb-4">Be Part of the Solution - Not the Problem</p>
 							<p className="text-white/90 text-lg mb-6">Every meal saved is a step towards ending hunger and reducing waste</p>
 							<a
-								href="https://forms.google.com/donate-food"
+								href="https://docs.google.com/forms/d/e/1FAIpQLSfUdu4dS9f6PHOm4be7XFq3IAmJPcJWoduQ-WwvVk6xkA1sig/viewform"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="inline-block px-8 py-4 bg-[#2E4938] text-white font-semibold rounded-full hover:bg-[#1f3126] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
@@ -303,22 +303,78 @@ export default function Home() {
 
 			{/* Call to Action Section */}
 			<section className="py-16 sm:py-24 bg-linear-to-br from-[#DE673F] to-[#c55835]">
-				<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-					<h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">Ready to Make a Difference?</h2>
-					<p className="text-xl text-white/90 mb-10 leading-relaxed">
-						Every contribution counts. Whether you're donating food, volunteering your time, or an NGO looking to partner with us, we'd
-						love to hear from you.
-					</p>
+				<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+					<div className="text-center mb-12">
+						<h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">Ready to Make a Difference?</h2>
+						<p className="text-xl text-white/90 leading-relaxed max-w-3xl mx-auto">
+							Every contribution counts. Join our mission to end hunger and reduce food waste across India.
+						</p>
+					</div>
 
-					<div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
-						<a
-							href="https://forms.google.com/donate-food"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="px-8 py-4 bg-white text-[#DE673F] font-semibold rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-						>
-							Get Started Today
-						</a>
+					<div className="grid md:grid-cols-2 gap-8">
+						{/* Volunteer Section */}
+						<div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+							<div className="text-5xl mb-4 text-center">🤝</div>
+							<h3 className="text-2xl font-bold text-[#2E4938] mb-4 text-center">Become a Volunteer</h3>
+							<p className="text-gray-700 mb-6 leading-relaxed text-center">
+								Be the change you wish to see! Your time and effort can transform lives. Join our growing community of compassionate
+								volunteers who collect and deliver meals to those in need.
+							</p>
+							<div className="space-y-3 mb-6">
+								<div className="flex items-center text-gray-700">
+									<span className="text-[#DE673F] mr-3 text-xl">✓</span>
+									<span>Flexible schedules that fit your life</span>
+								</div>
+								<div className="flex items-center text-gray-700">
+									<span className="text-[#DE673F] mr-3 text-xl">✓</span>
+									<span>Make meaningful connections</span>
+								</div>
+								<div className="flex items-center text-gray-700">
+									<span className="text-[#DE673F] mr-3 text-xl">✓</span>
+									<span>Experience the joy of giving</span>
+								</div>
+							</div>
+							<a
+								href="https://docs.google.com/forms/d/e/1FAIpQLSfFAShyHTDlvya-zee8kgMJJyZ2PsGw5BVb_UySXVqzBkka8g/viewform"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="block w-full text-center px-8 py-4 bg-[#DE673F] text-white font-semibold rounded-full hover:bg-[#c55835] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+							>
+								Join as Volunteer
+							</a>
+						</div>
+
+						{/* NGO Registration Section */}
+						<div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+							<div className="text-5xl mb-4 text-center">🏢</div>
+							<h3 className="text-2xl font-bold text-[#2E4938] mb-4 text-center">Register Your NGO</h3>
+							<p className="text-gray-700 mb-6 leading-relaxed text-center">
+								Amplify your impact! Partner with FoodBridge to receive consistent food donations for your community. Together, we can
+								feed more families and create lasting change.
+							</p>
+							<div className="space-y-3 mb-6">
+								<div className="flex items-center text-gray-700">
+									<span className="text-[#DE673F] mr-3 text-xl">✓</span>
+									<span>Regular food supply for your beneficiaries</span>
+								</div>
+								<div className="flex items-center text-gray-700">
+									<span className="text-[#DE673F] mr-3 text-xl">✓</span>
+									<span>Efficient coordination system</span>
+								</div>
+								<div className="flex items-center text-gray-700">
+									<span className="text-[#DE673F] mr-3 text-xl">✓</span>
+									<span>Join a network of verified partners</span>
+								</div>
+							</div>
+							<a
+								href="https://docs.google.com/forms/d/e/1FAIpQLSc6h3LxODPzTSvgL01jexl0Bs18-Yes5tddpajV6xLJhBuuzQ/viewform"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="block w-full text-center px-8 py-4 bg-[#2E4938] text-white font-semibold rounded-full hover:bg-[#1f3126] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+							>
+								Register Your NGO
+							</a>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -328,25 +384,31 @@ export default function Home() {
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="text-center mb-12">
 						<h2 className="text-4xl sm:text-5xl font-bold text-[#2E4938] mb-4">Our Impact</h2>
-						<div className="w-24 h-1 bg-[#DE673F] mx-auto"></div>
+						<div className="w-24 h-1 bg-[#DE673F] mx-auto mb-6"></div>
+						<p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+							Every action we take creates a ripple effect of positive change in our communities.
+						</p>
 					</div>
 
-					<div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-						<div className="text-center">
-							<div className="text-4xl sm:text-5xl font-bold text-[#DE673F] mb-2">10K+</div>
-							<p className="text-gray-600 text-lg">Meals Served</p>
+					<div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+						<div className="bg-linear-to-br from-[#DE673F] to-[#c55835] rounded-2xl p-10 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+							<div className="text-6xl mb-6 text-center">🍽️</div>
+							<h3 className="text-3xl font-bold mb-4 text-center">Feeding People in Need</h3>
+							<p className="text-white/95 text-lg leading-relaxed text-center">
+								We bridge the gap between surplus and scarcity, ensuring that nutritious meals reach families, children, and
+								individuals facing hunger. Every donation becomes a warm meal for someone in need, transforming lives one plate at a
+								time.
+							</p>
 						</div>
-						<div className="text-center">
-							<div className="text-4xl sm:text-5xl font-bold text-[#DE673F] mb-2">50+</div>
-							<p className="text-gray-600 text-lg">NGO Partners</p>
-						</div>
-						<div className="text-center">
-							<div className="text-4xl sm:text-5xl font-bold text-[#DE673F] mb-2">200+</div>
-							<p className="text-gray-600 text-lg">Volunteers</p>
-						</div>
-						<div className="text-center">
-							<div className="text-4xl sm:text-5xl font-bold text-[#DE673F] mb-2">15+</div>
-							<p className="text-gray-600 text-lg">Cities Covered</p>
+
+						<div className="bg-linear-to-br from-[#2E4938] to-[#1f3126] rounded-2xl p-10 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+							<div className="text-6xl mb-6 text-center">♻️</div>
+							<h3 className="text-3xl font-bold mb-4 text-center">Reducing Food Wastage</h3>
+							<p className="text-white/95 text-lg leading-relaxed text-center">
+								By rescuing surplus food from events, restaurants, and celebrations, we prevent tons of perfectly good food from
+								ending up in landfills. Together, we're building a sustainable future while combating climate change and environmental
+								degradation.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -509,11 +571,11 @@ export default function Home() {
 						</p>
 					</div>
 
-					<div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+					<div className="grid md:grid-cols-3 gap-8">
 						{/* Contact Card 1 */}
 						<div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
 							<div className="flex items-start space-x-4">
-								<div className="w-16 h-16 bg-linear-to-br from-[#DE673F] to-[#c55835] rounded-full flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
+								<div className="w-16 h-16 bg-linear-to-br from-[#DE673F] to-[#c55835] rounded-full flex items-center justify-center text-white text-2xl font-bold shrink-0">
 									Y
 								</div>
 								<div className="flex-1">
@@ -539,7 +601,7 @@ export default function Home() {
 						{/* Contact Card 2 */}
 						<div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
 							<div className="flex items-start space-x-4">
-								<div className="w-16 h-16 bg-linear-to-br from-[#2E4938] to-[#1f3126] rounded-full flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
+								<div className="w-16 h-16 bg-linear-to-br from-[#2E4938] to-[#1f3126] rounded-full flex items-center justify-center text-white text-2xl font-bold shrink-0">
 									M
 								</div>
 								<div className="flex-1">
@@ -556,6 +618,32 @@ export default function Home() {
 										</svg>
 										<a href="mailto:itsmudassir.official@gmail.com" className="hover:text-[#DE673F] transition-colors">
 											itsmudassir.official@gmail.com
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						{/* Contact Card 3 */}
+						<div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+							<div className="flex items-start space-x-4">
+								<div className="w-16 h-16 bg-linear-to-br from-[#DE673F] to-[#c55835] rounded-full flex items-center justify-center text-white text-2xl font-bold shrink-0">
+									S
+								</div>
+								<div className="flex-1">
+									<h3 className="text-2xl font-bold text-[#2E4938] mb-2">Shivam Singh</h3>
+									<p className="text-gray-600 mb-4">Co-Founder & Community Manager</p>
+									<div className="flex items-center text-gray-700 mb-2">
+										<svg className="w-5 h-5 mr-3 text-[#DE673F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												strokeWidth={2}
+												d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+											/>
+										</svg>
+										<a href="mailto:singhshivam79060@gmail.com" className="hover:text-[#DE673F] transition-colors">
+											singhshivam79060@gmail.com
 										</a>
 									</div>
 								</div>
