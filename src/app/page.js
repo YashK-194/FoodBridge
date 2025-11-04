@@ -53,7 +53,7 @@ export default function Home() {
 						</a>
 
 						<a
-							href="https://docs.google.com/forms/d/e/1FAIpQLSc6h3LxODPzTSvgL01jexl0Bs18-Yes5tddpajV6xLJhBuuzQ/viewform"
+							href="https://docs.google.com/forms/d/e/1FAIpQLScT4NH5oAyQZDjuXpp8jU3qL9sTNIOi5YOZ6LTDLtHGz0ZONQ/viewform"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="w-full sm:w-auto px-8 py-4 bg-[#2E4938] text-white font-semibold rounded-full hover:bg-[#1f3126] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center border-2 border-white"
@@ -367,7 +367,7 @@ export default function Home() {
 								</div>
 							</div>
 							<a
-								href="https://docs.google.com/forms/d/e/1FAIpQLSc6h3LxODPzTSvgL01jexl0Bs18-Yes5tddpajV6xLJhBuuzQ/viewform"
+								href="https://docs.google.com/forms/d/e/1FAIpQLScT4NH5oAyQZDjuXpp8jU3qL9sTNIOi5YOZ6LTDLtHGz0ZONQ/viewform"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="block w-full text-center px-8 py-4 bg-[#2E4938] text-white font-semibold rounded-full hover:bg-[#1f3126] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
